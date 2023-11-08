@@ -1,0 +1,82 @@
+* {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main {
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    align-items: stretch;
+    background-image: url("background.jpeg");
+    margin: 0px;
+}
+
+.head {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90vw;
+    width: 650px;
+    margin-bottom: 12px;
+    background-color: rgb(90, 90, 151);
+    color: whitesmoke;
+    text-align: center;
+    border-width: 8px;
+    border-color: rgb(255, 187, 187) cyan;
+    border-style: ridge;
+    margin-bottom: 16px;
+    border-radius: 8px;
+}
+
+hr {
+    padding: 1px;
+    background-color: rgb(44, 44, 44);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    margin: auto;
+    max-width: 90vw;
+    width: 650px;
+}
+
+.form-element {
+    padding: 24px;
+    border-width: 2px;
+    border-style: solid;
+    margin-bottom: 16px;
+    border-radius: 25px;
+    background-color: #E5E7EB;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 4%;
+}
+
+input {
+    padding-top: 100px;
+}
+
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+textarea {
+    padding-left: 2px;
+}
+
+fieldset {
+    padding-top: 16px;
+}
+
+button {
+    padding: 8px;
+}

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Question 5</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="main">
+            <div class="head">
+                <div style="font-size: 48px; font-weight: bold; padding-bottom: 16px;">Mental Health Awareness Club</div>
+                <div style="font-size: 32px;">Signup Form</div>
+            </div>
+
+            <div class="form">
+                <form action="" method="post">
+                    <div class="form-element">
+                        <p>
+                            Welcome to the Mental Health Awareness Club! 
+                            We're delighted that you're interested in joining our mission to 
+                            promote mental health, reduce stigma, and create a supportive 
+                            community for all. 
+                        </p>
+
+                        <p>
+                            Mental health is an essential part of our overall well-being, 
+                            and by becoming a part of our club, you'll have the opportunity to 
+                            make a positive impact in the lives of fellow students and raise 
+                            awareness about the importance of mental health.
+                        </p>
+
+                        <p>
+                            As a member of our club, you'll have the chance to engage in meaningful 
+                            discussions, organize events, and participate in activities that foster 
+                            a safe and inclusive environment for everyone. Whether you're passionate 
+                            about mental health advocacy or simply looking to learn more, there's a 
+                            place for you here.
+                        </p>
+
+                        <p>
+                            Please take a moment to fill out this signup form, and let's embark on 
+                            this journey together, breaking down barriers, and supporting one another 
+                            in the pursuit of better mental health for all. We appreciate your 
+                            commitment and look forward to working together to make a difference.
+                        </p>
+                    </div>
+
+                    <hr>
+
+                    <div class="form-element">
+                        <fieldset>
+                            <legend>EMAIL</legend>
+                            <input type="email" name="email" placeholder="you@example.com">
+                        </fieldset>
+                    </div>
+
+                    <div class="form-element">
+                        <fieldset>
+                            <legend>NAME</legend>
+                                                        
+                            <div>
+                                <input type="text" name="name" placeholder="Your answer">
+                            </div>
+                        </fieldset>
+                    </div>
+
+                    <div class="form-element">
+                        <fieldset>
+                            <legend>AGE</legend>
+                            <input type="number" name="age">
+                        </fieldset>
+                    </div>
+
+                    <div class="form-element">
+                        <fieldset>
+                            <legend>GENDER</legend>
+
+                            <input type="radio" id="male" name="gender" value="male">
+                            <label for="male">Male</label>
+
+                            <input type="radio" id="female" name="gender" value="female">
+                            <label for="female">Female</label>
+
+                            <input type="radio" id="other" name="gender" value="other">
+                            <label for="other">Other</label>
+
+                            <input type="radio" id="not-specified" name="gender" value="not-specified">
+                            <label for="not-specified">Rather not specify</label>
+                        </fieldset>
+                    </div>
+
+                    <div class="form-element">
+                        <fieldset>
+                            <legend>Which year student are you?</legend>
+
+                            <select name="Year">
+                                <option selected></option>
+
+                                <optgroup label="UG">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                </optgroup>
+
+                                <optgroup label="PG">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                </optgroup>
+                            </select>
+                        </fieldset>
+                    </div>
+
+                    <div class="form-element">
+                        <fieldset>
+                            <legend>Please select all the topics you are familiar with</legend>
+
+                            <div>
+                                <input type="checkbox" id="stress-management" name="topic" value="stress-management">
+                                <label for="stress-management">Stress Management</label>
+                            </div>
+
+                            <div>
+                                <input type="checkbox" id="mental-health-stigma" name="topic" value="mental-health-stigma">
+                                <label for="mental-health-stigma">Mental Health Stigma</label>
+                            </div>
+
+                            <div>
+                                <input type="checkbox" id="anxiety-disorders" name="topic" value="anxiety-disorders">
+                                <label for="anxiety-disorders">Anxiety Disorders</label>
+                            </div>
+
+                            <div>
+                                <input type="checkbox" id="depression" name="topic" value="depression">
+                                <label for="depression">Depression</label>
+                            </div>
+
+                            <div>
+                                <input type="checkbox" id="suicide-prevention" name="topic" value="suicide-prevention">
+                                <label for="suicide-prevention">Suicide Prevention</label>
+                            </div>
+
+                            <div>
+                                <input type="checkbox" id="bullying" name="topic" value="bullying">
+                                <label for="bullying">Bullying</label>
+                            </div>
+
+                            <div>
+                                <input type="checkbox" id="eating-disorders" name="topic" value="eating-disorders">
+                                <label for="eating-disorders">Eating Disorders</label>
+                            </div>
+
+                            <div>
+                                <input type="checkbox" id="substance-abuse" name="topic" value="substance-abuse">
+                                <label for="substance-abuse">Substance Abuse</label>
+                            </div>
+                        </fieldset>
+                    </div>
+
+                    <div class="form-element">
+                        <fieldset>
+                            <legend>Tell us more about yourself</legend>
+                            <textarea placeholder="Your answer"></textarea>
+                        </fieldset>
+                    </div>
+
+                    <div class="buttons form-element">
+                        <div>
+                            <button type="reset">Reset</button>
+                        </div>
+
+                        <div>
+                            <button type="submit">Submit</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
